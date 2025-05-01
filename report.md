@@ -52,6 +52,7 @@ first 20 lines of the generated samples:
             }
 
 Personal favorite generated snippet(s):
+
 if(next == 0 && prompt_tokens < num_prompt_tokens - 1) {
                           // encode the aing string prompt from this and excted prompt
                             strcpy(system_prompt);
