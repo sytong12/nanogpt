@@ -9,6 +9,7 @@ Stirrd your gates?
 CORIOLANUS:
 
 #3. Remainder 0: Layers = 5, Heads ∈ {2, 3, 5, 7}, n_embd ∈ {128, 129, 130, 133}, training with 3000 iterations.#
+
 Number of heads: 2, Loss at iteration 3000：1.5507, validation loss = 1.6355
 Number of heads: 3, Loss at iteration 3000：1.5529, validation loss = 1.6190
 Number of heads: 5, Loss at iteration 3000：1.5552, validation loss = 1.6204
@@ -17,6 +18,7 @@ Number of heads: 7, Loss at iteration 3000：1.5064, validation loss = 1.5973
 layers=5, heads= 7, has lowest validation loss of 1.5973
 
 #4. XYZ mod 2 = 0: Populate data/code generation/input.txt with open-source C or C++ code from GitHub.#
+
 The new dataset is populated using following C code:
 https://raw.githubusercontent.com/karpathy/llama2.c/refs/heads/master/run.c
 https://raw.githubusercontent.com/karpathy/llama2.c/refs/heads/master/runq.c 
